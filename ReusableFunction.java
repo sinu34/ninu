@@ -168,10 +168,6 @@ public class ReusableFunction {
 			 
 			System.out.println("enter2");
 			break;
-		case "cssselector":
-			List<WebElement> skip = driver.findElements(By.cssSelector(locatorElement));
-			((WebElement) skip).click();
-	break;
 		}
 		
 		}
